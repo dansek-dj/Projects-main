@@ -1,0 +1,23 @@
+This hackathon will try to address the challenges of banking telecallers when they call blindly to people in order to sell term deposit plans. The aim of this hackathon is to find the most accurate prediction of whether a person to be called will subscribe to the term deposit plan or not using any of the machine learning algorithms. The participants can use the historical data that consists of different features of customers and whether they subscribed to the plan or not. Using this data, the participants need to build a machine learning model in order to make predictions.
+
+----------
+Input Features
+Age: 		Age of the customer
+Job: 		Type of job of customer
+Marital: 	Marital status of the customer
+Education: 	The education level of the customer
+Default: 	Has credit in default?
+Balance: 	Average yearly balance (in Euros)
+Housing: 	Has a housing loan?
+Loan: 		Has a personal loan?
+Contact: 	Contact communication type
+Day: 		Last contact day of the month
+Month: 		Last contact month of the year
+Duration: 	Last contact duration, in seconds
+Campaign: 	Number of contacts performed during this campaign and for this client
+Pdays: 		Number of days that passed by after the client was last contacted from a previous campaign (-1 means the client was not previously contacted)
+Previous: 	Number of contacts performed before this campaign and for this client
+Poutcome: 	Outcome of the previous marketing campaign
+
+  Output feature (Target feature)
+ 17 - y_bool - Has the customer subscribed to a term deposit?
